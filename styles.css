@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2113%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(225%2c 229%2c 233%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L549.32 0L0 275.86z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 275.86L549.32 0L711.5 0L0 360.39z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 360.39L711.5 0L1129.91 0L0 404.45z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 404.45L1129.91 0L1337.22 0L0 426.53999999999996z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L894.23 560L1440 515.37z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 515.37L894.23 560L763.9100000000001 560L1440 265.56z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 265.56L763.9100000000001 560L509.3500000000001 560L1440 167.17000000000002z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 167.17000000000002L509.35000000000014 560L170.48000000000013 560L1440 57.99000000000001z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2113'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    color: black;
+}
+
+.menu1 {
+    background-color: rgb(27, 77, 92);
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 2PX;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    margin-bottom: 20PX;
+
+
+}
+.links a{
+    font-size: 2rem;
+    margin: 5px;
+    }
+    
+    
+
+.titulo{
+ font-size: 60px;
+ position: absolute;
+    top: 2.8%;
+    right: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.herramientas {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    color: #fdfcff;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.noticiap1 {
+    background: url(./imgs/principal1.jpg) no-repeat center center/cover;
+    width: 55%;
+    height: 390px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:27%;
+    bottom: 20%;
+    position: relative;
+}
+
+
+.publicidad {
+
+    background-color: black;
+    background: url(./imgs/publicidad1.jpg) no-repeat center center/cover;
+    height: 300px;
+    width: 35%;
+    position: absolute;
+    left: 62.5%;
+    bottom: 38.3%;
+
+
+}
+
+.todo {
+    background-color: black;
+}
+
+
+.noticia2 {
+    padding: 20px;
+    width: 55%;
+    height: 390px;
+    background: url(./imgs/principal2.jpg) no-repeat center center/cover;
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    color: #fdfcff;
+    margin-bottom: 100px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 97%;
+    position: relative;
+
+}
+
+n2{
+position: absolute;
+top: 80%;
+
+}
+.noticiasV {
+    background-color: rgb(128, 156, 165);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 450px;
+    position: absolute;
+    left: 63%;
+    top: 70%;
+    border-radius: 7px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(223%2c 232%2c 233%2c 1)'%3e%3c/rect%3e%3cpath d='M1440 0L981.56 0L1440 161.09z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M981.56 0L1440 161.09L1440 358.77L640.6099999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M640.61 0L1440 358.77L1440 377.88L390.21000000000004 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M390.21000000000004 0L1440 377.88L1440 495.61L368.44000000000005 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L56.09 560L0 495.47z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 495.47L56.09 560L784.0300000000001 560L0 298.33000000000004z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 298.33000000000004L784.0300000000001 560L860.7700000000001 560L0 140.64000000000004z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 140.64000000000004L860.7700000000001 560L1064.8600000000001 560L0 59.74000000000004z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    box-shadow: 0px 1px 54px 10px rgba(0, 0, 70, 0.40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.noticiaV {
+    display: flex;
+    align-items: center;
+
+    width: 440px;
+    height: 70px;
+
+}
+
+.noticiasV .noticiaV img {
+    width: 26%;
+    padding: 6px;
+    letter-spacing: 2em;
+}
+.noticiasV .noticiaV p:hover{
+    border-bottom: 2px solid rgb(155, 149, 149)
+}
+.noticiasV .noticiaV p{
+    color: black;
+}
+
+hr {
+    height: 2px;
+    width: 85%;
+    background-color: black;
+}
+
+.noticiasV .noticiaV p:hover {
+    border-bottom: 3px solid black;
+
+}
+
+.btnmenu {
+    position: absolute;
+    left: 88%;
+    top: 2.8%;
+    z-index: 2em;
+    font-size: 3rem;
+    color: white;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+
+
+.final {
+    display: flex;
+    justify-content: center;
+    }
+    
+
+
+
+
+
