@@ -6,11 +6,14 @@
 
 body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2113%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(225%2c 229%2c 233%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L549.32 0L0 275.86z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 275.86L549.32 0L711.5 0L0 360.39z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 360.39L711.5 0L1129.91 0L0 404.45z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 404.45L1129.91 0L1337.22 0L0 426.53999999999996z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L894.23 560L1440 515.37z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 515.37L894.23 560L763.9100000000001 560L1440 265.56z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 265.56L763.9100000000001 560L509.3500000000001 560L1440 167.17000000000002z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 167.17000000000002L509.35000000000014 560L170.48000000000013 560L1440 57.99000000000001z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2113'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    
+    ;
     background-size: cover;
-    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
+
+
 
 .menu1 {
     background-color: rgb(27, 77, 92);
@@ -28,15 +31,23 @@ body {
     position: relative;
 }
 
-.links a{
-    font-size: 2rem;
-    margin: 5px;
-    
+.redes a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 10px;
+    font-size: 2em;
+    transition: all 0.2s;
 }
-    
-    
 
-.titulo{
+.redes a:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.titulo {
     font-size: 60px;
     position: absolute;
     top: 21%;
@@ -51,9 +62,9 @@ body {
     list-style: none;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+}
 
-    .herramientas1 {
+.herramientas1 {
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #4895A0;
@@ -63,49 +74,60 @@ body {
     width: 300px;
     height: 400px;
     position: relative;
-    top:250px;
+    top: 250px;
     right: 1014px;
     z-index: 1;
     border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
     transform: translateX(-300px);
     transition: transform 0.3s ease-in-out;
     opacity: .9;
+
 }
- .show{
-    transform: translateX(0px);
+
+.show {
+    transform: translateX(-3px);
+
 }
-.herramientas{
-    
+
+noticiap1:hover p {
+    /*ojo*/
+    filter: blur(2px);
+}
+
+.herramientas {
+
     width: 90%;
     margin-left: 14px;
     margin-top: 10px;
     text-decoration: none;
     list-style: none;
-    
+
     ;
 
 }
-.herramientas1 .herramientas a{
-    
+
+.herramientas1 .herramientas a {
+
     border-left: 2px solid transparent;
     padding: 5px;
     display: list-item;
-    padding:10px; 
-    transition:  0.5s ease;
-    
+    padding: 10px;
+    transition: 0.5s ease;
+
 }
 
-.herramientas1 .herramientas hr{
+.herramientas1 .herramientas hr {
     display: flex;
     margin: 10px;
     background-color: black;
     width: 85%;
     position: relative;
-    
-    
+
+
 }
-.herramientas a:hover{
+
+.herramientas a:hover {
     border-left: 2px solid;
 }
 
@@ -133,7 +155,7 @@ a {
     border-radius: 6px;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top:25%;
+    top: 25%;
     bottom: 20%;
     left: 0.4%;
 }
@@ -146,59 +168,60 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
+
     width: 92.3%;
     margin: 21px;
-    height: 91%; 
+    height: 91%;
     transition: all 0.5s ease;
-    transform: scale(0.1) ;  
+    transform: scale(0.1);
     opacity: .9;
-     padding: 15px;
+    padding: 15px;
 }
 
-.textop1:hover{
+.textop1:hover {
     transform: scale(1.1);
     background-color: rgb(27, 77, 92);
 }
-.titlep1{
+
+.titlep1 {
     width: 55.6%;
-    margin: 5px;;
+    margin: 5px;
     padding: 3px;
     position: absolute;
     left: 1.9%;
     top: 17%;
     transition: all 0.2s ease;
     border-bottom: 2px solid transparent;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
 }
 
 .titlep1:hover {
     border-bottom: 3px solid rgb(116, 114, 114);
     padding-bottom: 5px;
-    
-}
-  
 
-.titlep2{
-     margin: 0px;
+}
+
+
+.titlep2 {
+    margin: 0px;
     padding: 3px;
-    transition: all 0.2s ease ;
+    transition: all 0.2s ease;
     border-bottom: 1px solid transparent;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     position: absolute;
     top: 91%;
     left: 1.9%;
 }
 
-.titlep2:hover{
- border-bottom: 3px solid rgb(116, 114, 114);
- padding-bottom: 1px;
+.titlep2:hover {
+    border-bottom: 3px solid rgb(116, 114, 114);
+    padding-bottom: 1px;
 
 }
-    
-.item{
+
+.item {
     padding: 3px;
     width: 48%;
     height: 2px;
@@ -209,26 +232,27 @@ a {
     margin: 10px;
     border-radius: 50px;
     transition-duration: 0.8s;
-    
+
 
 }
 
-.item:hover{
+.item:hover {
     background: rgb(114, 122, 122);
-    transform: scalex(1.18);}
-    
-    .item2{
-        
-        padding: 3px;
-        width: 48%;
-        height: 2px;
-        background-color: rgb(241, 238, 238);
-        position: absolute;
-        top: 160%;
-        left: 4%;
-        margin: 10px;
-        border-radius: 50px;
-    }
+    transform: scalex(1.18);
+}
+
+.item2 {
+
+    padding: 3px;
+    width: 48%;
+    height: 2px;
+    background-color: rgb(241, 238, 238);
+    position: absolute;
+    top: 160%;
+    left: 4%;
+    margin: 10px;
+    border-radius: 50px;
+}
 
 
 .noticia2 {
@@ -249,9 +273,10 @@ a {
     position: absolute;
     top: 98%;
     left: 0.4%;
-    
+
 
 }
+
 .publicidad {
 
     background-color: black;
@@ -262,11 +287,13 @@ a {
     left: 61%;
     top: 19%;
 }
-n2{
-position: absolute;
-top: 80%;
+
+n2 {
+    position: absolute;
+    top: 80%;
 
 }
+
 .noticiasV {
     background-color: rgb(128, 156, 165);
     display: flex;
@@ -276,7 +303,7 @@ top: 80%;
     width: 465px;
     position: absolute;
     left: 63%;
-    top: 81%;
+    top: 90%;
     border-radius: 7px;
     height: 500px;
     margin-bottom: 20px;
@@ -286,23 +313,24 @@ top: 80%;
     overflow-y: scroll;
     overflow-x: hidden;
 
- 
-    
-}
-.noticiasV::-webkit-scrollbar{
-    width: 10px;
-   
-}
-.noticiasV::-webkit-scrollbar-thumb{
-    background-color: rgba(192, 186, 197, 0.473);
-    border-radius: 60px;
-    
-     
+
+
 }
 
-.noticiasV::-webkit-scrollbar-thumb:hover{
- box-shadow: 0px 0px 5px 9px rgba(238, 213, 213, 0.5)
- inset;
+.noticiasV::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+.noticiasV::-webkit-scrollbar-thumb {
+    background-color: rgba(192, 186, 197, 0.473);
+    border-radius: 60px;
+
+
+}
+
+.noticiasV::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0px 0px 5px 9px rgba(238, 213, 213, 0.5) inset;
 }
 
 
@@ -320,19 +348,21 @@ top: 80%;
     letter-spacing: 2em;
     transition: 0.2s;
 }
-.noticiasV .noticiaV p{
 
-		padding: 15px;
-		line-height: normal;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 15px;
-		
-    
+.noticiasV .noticiaV p {
+
+    padding: 15px;
+    line-height: normal;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+
+
 }
-.noticiasV .noticiaV p{
+
+.noticiasV .noticiaV p {
     color: black;
-    transition: all 0,3s;
+    transition: all 0, 3s;
 }
 
 hr {
@@ -344,8 +374,8 @@ hr {
 
 .noticiasV .noticiaV p:hover {
     border-bottom: 2px solid rgb(163, 167, 185);
-   padding-bottom: 2px;
-    
+    padding-bottom: 2px;
+
 }
 
 .btnmenu {
@@ -361,7 +391,7 @@ hr {
 .zoom:hover {
     transform: scale(1.1);
 }
-    
+
 
 
 
@@ -371,32 +401,44 @@ hr {
     justify-content: center;
     background-color: rgb(27, 77, 92);
     position: relative;
-    }
-
-    .final{
-        position: absolute;
-        bottom: 0;
-    }
-
-    .btnmenu:hover{
-    transform: rotate(270deg);
-  
-    margin:auto;
-    transition: 0.6s;
-   }
-   
-.categorias{
-   display: flex;
-   width: 480px;
-  height: 100px;
-  position: relative;
-  top: 184px;
-  left: 630px;
-  margin: 200px;
-  
 }
 
-.categoria1{
+.final {
+    position: absolute;
+    bottom: 0;
+}
+
+.btnmenu:hover {
+    transform: rotate(270deg);
+    margin: auto;
+    transition: 0.6s;
+}
+
+.categorias {
+    display: flex;
+    width: 480px;
+    height: 100px;
+    position: relative;
+    top: 220px;
+    left: 630px;
+    margin: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.categorias h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    margin: 3px;
+
+
+}
+
+.categoria1 {
     background-color: rgb(26, 11, 247);
     flex: 2;
     border-radius: 30px;
@@ -407,19 +449,17 @@ hr {
     box-shadow: 2px 5px 10px 0px rgba(0, 0, 70, 0.60);
 }
 
-.categoria1:hover{
+.categoria1:hover {
     flex: 12;
     background: url(./imgs/categoria1.jpg) no-repeat center center/cover;
     height: 200px;
-    
-     
+
+
 }
 
-  
-
-.categoria2{
+.categoria2 {
     background-color: rgb(194, 18, 18);
-    flex:2;
+    flex: 2;
     border-radius: 30px;
     margin-left: 10px;
     height: 30px;
@@ -429,18 +469,25 @@ hr {
 }
 
 
-.categoria2:hover{
+.categoria2:hover {
     flex: 12;
     background: url(./imgs/categoria2.jpg) no-repeat center center/cover;
     height: 200px;
-    
+
 }
 
-   
+.categorias p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 
+}
 
-
-.categoria3{
+.categoria3 {
     background-color: rgb(241, 255, 38);
     flex: 2;
     border-radius: 30px;
@@ -451,12 +498,13 @@ hr {
     box-shadow: 2px 5px 10px 0px rgba(0, 0, 70, 0.60)
 }
 
-.categoria3:hover{
+.categoria3:hover {
     flex: 12;
     background: url(./imgs/categoria3.jpg) no-repeat center center/cover;
     height: 200px;
 }
-.categoria4{
+
+.categoria4 {
     background-color: rgb(48, 245, 31);
     flex: 2;
     border-radius: 30px;
@@ -467,41 +515,59 @@ hr {
     box-shadow: 2px 5px 10px 0px rgba(0, 0, 70, 0.60)
 }
 
-.categoria4:hover{
+.categoria4:hover {
     flex: 12;
     background: url(./imgs/categoria4.jpg) no-repeat center center/cover;
     height: 200px;
 }
-.titlep2 a{
+
+.titlep2 a {
     transition: color 500ms;
     color: #b3af9a;
-        position: relative;
-       left: 17.5px;
-       transform: scaleX(1);
-    }
-    .titlep2:hover{
-        color: #17202A;
-        transform: scaleX(2.2);
-          transform: scaleX(1.1);
-    }
-    .titlep2 a:hover{
-        color: #17202A;
-    }
-    .titlep1 a{
-        transition: color 500ms;
-        color: #b3af9a;
-            position: relative;
-           left: 0px;
-           transform: scaleX(1);
-        }
-        .titlep1:hover{
-            color: #17202A;
-            transform: scaleX(2.2);
-              transform: scaleX(1.1);
-        }
-        .titlep1 a:hover{
-            color: #17202A;
+    position: relative;
+    left: 17.5px;
+    transform: scaleX(1);
+}
 
-            }
+.titlep2:hover {
+    color: #17202A;
+    transform: scaleX(2.2);
+    transform: scaleX(1.1);
+}
 
-           
+.titlep2 a:hover {
+    color: #17202A;
+}
+
+.titlep1 a {
+    transition: color 500ms;
+    color: #b3af9a;
+    position: relative;
+    left: 0px;
+    transform: scaleX(1);
+}
+
+.titlep1:hover {
+    color: #17202A;
+    transform: scaleX(2.2);
+    transform: scaleX(1.1);
+}
+
+.titlep1 a:hover {
+    color: #17202A;
+
+}
+
+.seccionend p {
+    width: 100%;
+    background-color: rgba(57, 56, 70, 0.137);
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+
+html {
+    height: 1500px;
+}
