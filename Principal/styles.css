@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    
 }
 
 
@@ -79,7 +79,7 @@ body {
     z-index: 1;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    transform: translateX(-300px);
+    transform: translateX(-10000px);
     transition: transform 0.3s ease-in-out;
     opacity: .9;
 
