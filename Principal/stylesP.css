@@ -358,6 +358,12 @@ position: relative;
     line-height: normal;
     text-decoration: none;
     font-size: 15px;
+   
+}
+
+.noticiasV .noticiaV p:hover{
+    color: rgb(20, 68, 83);
+   
 }
 
 .zoom:hover{
@@ -587,6 +593,7 @@ opacity: 1;
     width: 90%;
 }
 
+/**/
 
 .pie-pagina{
     width: 100%;
@@ -621,12 +628,16 @@ opacity: 1;
 text-decoration: none;
 color: aliceblue;
 padding: 0px 0px 15px 0px;
+
 }
 
 .titulo__links{
     font-size: 24px;
 }
 
+.box{
+    text-align: center;
+}
 
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
@@ -650,9 +661,10 @@ padding: 0px 0px 15px 0px;
     transition: all 300ms ease;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: rgb(29, 107, 143);
+   
     transform: translateY(-5px);
-    box-shadow: 0px 0px 5px 1px rgba(14, 83, 212, 0.5);
+    
+   
                
 }
 .pie-pagina .grupo-2{
@@ -665,3 +677,28 @@ padding: 0px 0px 15px 0px;
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+
+.pie-pagina .grupo-1 .red-social .f:hover {
+    box-shadow: 0px 0px 5px 1px rgba(14, 83, 212, 0.5);
+    color: rgba(14, 83, 212);
+}
+
+.pie-pagina .grupo-1 .red-social .in:hover {
+    box-shadow: 0px 0px 5px 1px rgba(212, 70, 14, 0.5);
+    color: rgba(212, 70, 14);
+}
+
+.pie-pagina .grupo-1 .red-social .tw:hover {
+    box-shadow: 0px 0px 5px 1px rgba(14, 189, 212, 0.5);
+    color:  rgba(14, 189, 212);
+}
+
+.pie-pagina .grupo-1 .red-social .yt:hover{
+    box-shadow: 0px 0px 5px 1px rgba(255, 0, 0, 0.5);
+    color:rgba(255, 0, 0);
+}
+
+
+
+
+
